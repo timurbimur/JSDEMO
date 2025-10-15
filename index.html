@@ -43,6 +43,25 @@
 
  <button onclick="document.getElementById('alice').style.color='red';
     document.getElementById('alice').style.fontSize='50px'">Get big</button>
+
+<button type="button" onclick="myFunction()">Set background image</button>
+
+<script>
+function myFunction() {
+  document.body.style.backgroundColor = "#f3f3f3";
+  document.body.style.backgroundImage = "url('images/image.png')";
+}
+</script>
+
+<button type="button" onclick="setFont()">Set font</button>
+ 
+<script>
+function setFont() {
+  document.getElementById("demo").style.font = "italic bold 20px arial,serif";
+}
+</script>
+<p id="demo">This is a paragraph.</p>
+
 </body>
 
 </html>
